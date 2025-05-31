@@ -1,7 +1,7 @@
 from PIL import Image
 import streamlit as st
 
-im = Image.open("\west_n.png")
+im = Image.open("west_n.png")
 
 steps = st.slider('Количество точек', 150, 600)
 

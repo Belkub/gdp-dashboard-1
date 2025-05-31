@@ -1,15 +1,14 @@
+from PIL import Image
 import streamlit as st
-import pandas as pd
-import math
-from pathlib import Path
-from string import ascii_letters, digits, punctuation
-import random
-st.title('Генератор паролей')
-length = st.slider('Длина пароля', 8, 24, 16)
-special = st.checkbox('Использовать спецсимволы')
+
+im = Image.open("C:\\west\\west_n.png")
+
+steps = st.slider('Количество точек', 150, 600)
+
 if st.button('Создать'):
-    char = ascii_letters + digits
-    if special:
-        char += punctuation
-    password = "".join(random.choices(char, k = length))
-    st.code(password, language = 'test')
+    
+    crop_rectangle = (150, 150, 400, steps)
+    img = im.crop(crop_rectangle)
+
+    img.show()
+

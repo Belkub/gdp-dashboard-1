@@ -31,7 +31,7 @@ if u:
     bb = [(R,T), (R,B), (L,B), (L,T)]
 
     if st.button('Создать'):
-    #st.image("C:\\west\\west_n.png", caption="Sunrise by the mountains")
+    #st.image("west_n.png", caption="Sunrise by the mountains")
         ima = Image.open("C:\\west\\west_n.png")
         img = ima.crop((L, T, R, B))  
         st.image(img)

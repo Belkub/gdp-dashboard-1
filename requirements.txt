@@ -9,3 +9,4 @@ torch
 scikit-learn
 shapely
 prettytable
+openpyxl

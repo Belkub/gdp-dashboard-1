@@ -32,7 +32,7 @@ if u:
 
     if st.button('Создать'):
     #st.image("west_n.png", caption="Sunrise by the mountains")
-        ima = Image.open("C:\\west\\west_n.png")
+        ima = Image.open("west_n.png")
         img = ima.crop((L, T, R, B))  
         st.image(img)
 else:

@@ -10,3 +10,4 @@ scikit-learn
 shapely
 prettytable
 openpyxl
+seaborn

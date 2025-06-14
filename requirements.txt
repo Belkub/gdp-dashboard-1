@@ -3,3 +3,7 @@ pandas
 pillow
 plotly
 cloudpickle
+matplotlib
+scipy
+torch
+scikit-learn

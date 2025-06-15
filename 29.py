@@ -6,6 +6,7 @@ from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 try:
+    st.title('Калькулятор запасов Таганского м-я, запад')
     u = st.checkbox('Задать участок')
     if u:
         num444 = 1
